@@ -1,0 +1,93 @@
+
+.chat-container {
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+.chat {
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+
+.question {
+  font-weight: bold;
+  color: #333;
+  font-size: 15px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.answer {
+  color: #555;
+  margin-bottom: 50px;
+  text-align: right;
+  font-size: 15px;
+}
+.hr-with-text {
+      text-align: center;
+      position: relative;
+    }
+    
+    .hr-with-text::before {
+      content: "";
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 50%;
+      border-top: 1px solid black;
+    }
+    
+    .hr-with-text::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      right: 0;
+      left: 50%;
+      border-top: 1px solid black;
+    }
+    
+    .hr-with-text span {
+      background-color: white;
+      padding: 0 10px;
+      position: relative;
+      top: -10px;
+    }
+    .buttoninserimentofaq {
+        background-color: #f4f4f4;
+        text-align: center;
+        align-self: center;
+        color: black;
+        border-color: #901003;
+        width: 80%;
+        padding: 10px;
+        border-radius: 20px;
+        border: 2px solid #901003;
+        background-color: #f4f4f4
+    }
+    
+    .inputFormFaq {
+        background-color: #f4f4f4;
+        text-align: center;
+        align-self: center;
+        color: black;
+        border-color: #901003;
+        width: 80%;
+        padding: 20px;
+        border-radius: 10px;
+        border: 2px solid #901003;
+        background-color: #f4f4f4;
+        height: 100px;
+    }
+    
+    .inputFormFaq:focus {
+        border-color: #901003;
+        
+    }
+    
+    .prova1234{
+        width: 50%;
+    }
+    
+    
